@@ -1,0 +1,6 @@
+We are looking for a Machine Learning Engineer with experience in Python, 
+pandas, scikit-learn, and deep learning frameworks like TensorFlow or PyTorch. 
+The candidate should have knowledge of SQL, data visualization tools like 
+Power BI, and experience with model deployment and MLOps. Familiarity with 
+NLP, computer vision, and cloud platforms like AWS is a plus. Strong 
+communication skills and experience with Git/GitHub required.
