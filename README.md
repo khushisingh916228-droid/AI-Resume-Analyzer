@@ -21,7 +21,7 @@ An AI-powered web application that analyzes resumes against job descriptions, ca
 
 ## 📸 Screenshots
 
-*(![Uploading Screenshot 2026-08-21 082617.png…]()
+*(<img width="998" height="874" alt="Ai Resume" src="https://github.com/user-attachments/assets/2876f9bf-9fcb-45c5-966e-6a4a320cff41" />
 )*
 
 ## ⚙️ How to Run Locally
@@ -33,6 +33,7 @@ cd AI-Resume-Analyzer
 ```
 
 2. Create a virtual environment
+
 ```bash
 python -m venv venv
 venv\Scripts\activate
