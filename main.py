@@ -28,7 +28,12 @@ def extract_skills(text, skills_list):
 def calculate_match(resume_skills, jd_skills):
     matched_skills = set(resume_skills) & set(jd_skills)
     missing_skills = set(jd_skills) - set(resume_skills)
-    match_percentage = (len(matched_skills) / len(jd_skills)) * 100
+    
+    if len(jd_skills) == 0:
+        match_percentage = 0
+    else:
+        match_percentage = (len(matched_skills) / len(jd_skills)) * 100
+    
     return match_percentage, matched_skills, missing_skills
 
 def analyze_resume(pdf_path, jd_text):
