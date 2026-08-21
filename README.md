@@ -21,7 +21,8 @@ An AI-powered web application that analyzes resumes against job descriptions, ca
 
 ## 📸 Screenshots
 
-*(Add your app screenshots here)*
+*(![Uploading Screenshot 2026-08-21 082617.png…]()
+)*
 
 ## ⚙️ How to Run Locally
 
