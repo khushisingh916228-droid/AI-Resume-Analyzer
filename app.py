@@ -12,7 +12,7 @@ if st.button("Analyze"):
         with open("data/temp_resume.pdf", "wb") as f:
             f.write(uploaded_file.getbuffer())
 
-        score, matched, missing = analyze_resume("data/temp_resume.pdf", jd_text)
+        score, matched, missing, resume_skills = analyze_resume("data/temp_resume.pdf", jd_text)
 
         st.subheader(f"Match Score: {score:.1f}%")
         st.progress(score / 100)
